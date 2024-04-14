@@ -1,0 +1,297 @@
+/*--- Estilos generales ---*/
+body{
+/* Mantener degradado */
+background: rgb(238,242,245); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(238,242,245,1) 0%, rgba(166,177,186,1) 24%, rgba(171,27,168,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(238,242,245,1) 0%,rgba(166,177,186,1) 24%,rgba(171,27,168,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(238,242,245,1) 0%,rgba(166,177,186,1) 24%,rgba(171,27,168,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eef2f5', endColorstr='#ab1ba8',GradientType=0 ); /* IE6-9 */
+
+}
+
+a {text-decoration: none; color: #fff;}
+a:hover {text-decoration: underline;}
+
+#wrap{
+	width: 960px;
+	margin: auto;
+
+	clear: both;
+}
+/*--- HEADER ---*/
+header{
+	width: 100%;
+	float: left;
+	background: #fff;
+}
+
+#subheader{
+	width: 960px;
+	margin: auto;
+}
+
+#logotipo{
+	float: left;
+	width: 300px;
+	padding:10px 0px;
+}
+
+
+#logotipo a{
+	font-family:malvie;
+	font-size: 60px;
+	color: #000;
+}
+
+#logotipo a:hover {text-decoration: none;}
+
+/*--- MENU ---*/
+header {
+	box-shadow: 0px 4px 5px #000;
+		-moz-box-shadow: 0px 4px 5px #000;
+		-webkit-box-shadow: 0px 4px 5px #000;
+}
+
+header nav {
+	float: left;
+	width:660px;
+	padding:30px 0px;
+	text-align: right;
+}
+
+
+header #subheader nav ul li{
+	display: inline;
+	font-family: sans-serif;
+}
+
+header #subheader nav ul li a{
+	color: #000;
+	font-size: 18px;
+	padding:10px;
+		border-radius: 2px;
+		-moz-border-radius: 2px;
+		-webkit-border-radius: 2px;
+}
+
+header #subheader nav ul li a:hover {
+	color: #fff;
+	background: #1798af;
+	text-decoration: none;
+}
+
+
+/*---MAIN---*/
+
+#main {
+	width: 100%;
+	margin: 20px 0px 0px 0px;
+	float:left;
+}
+
+/*---Slideshow---*/
+.swiper-container {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+}
+
+/*---BIENVENIDOS---*/
+#bienvenidos {
+	width:920px;
+	float:left;
+	padding:20px;
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#4d78b3+0,8a9ed8+100 */
+background: rgb(77,120,179);
+
+	margin:20px 0px;
+	box-shadow: 5px 4px 5px #000;
+		-moz-box-shadow: 5px 4px 5px #000;
+		-webkit-box-shadow: 5px 4px 5px #000;
+	border-radius:5px;
+		-moz-border-radius:5px;
+		-webkit-border-radius:5px;
+
+}
+
+#bienvenidos article h3{
+	font-family:malvie;
+	color: #fff;
+	font-size: 40px;
+	margin-bottom: 10px;
+}
+
+#bienvenidos article ul li{
+	list-style: none;
+}
+
+#bienvenidos article {
+	color: #fff;
+	line-height: 27px;
+}
+
+/*---CONTENIDO---*/
+#contenido{
+	width: 700px;
+	float:left;
+}
+
+#contenido article{
+	float: left;
+	margin-bottom: 20px;
+}
+
+#contenido article .titulo{
+	font-size: 25px;
+	font-family:malvie;
+	color: #fff;
+}
+
+#contenido article .fecha{
+	font-size: 14px;
+	color: #1798af;
+	margin-bottom: 5px;
+}
+
+#contenido article .thumb{
+	width: 220px;
+	height: 150px;
+	float: left;
+	margin:0px 10px 10px 0px;
+}
+
+#contenido article > p{
+	color: #8c8c8c;
+	font-size: 14px;
+	text-align: justify;
+}
+
+
+/*---FOOTER---*/
+footer{
+	width: 100%;
+	float: left;
+	clear: both;
+	box-shadow: 5px 4px 5px #000;
+		-moz-box-shadow: 5px 4px 5px #000;
+		-webkit-box-shadow: 5px 4px 5px #000;
+	border-radius: 5px;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+background: rgb(94,94,94); 
+
+
+}
+
+footer section{
+	width: 440px;
+	float: left;
+	padding: 20px;
+
+}
+
+footer #acerca-de{
+	font-family: malvie;
+	font-size: 15px;
+	color: #fff;
+	text-align: justify;
+	line-height: 20px;
+}
+
+footer #acerca-de h3{
+	font-size: 28px;
+	color: #2F3234;
+	margin-bottom: 5px;
+}
+
+footer #redes-s > div {
+    width: 160px;
+    height: 40px;
+    float: left;
+    background: #ff8000;
+    opacity: 0.7;
+}
+
+.twitter{
+	font-size: 65px;
+	list-style: none;
+	margin: 40px;
+	text-align: center;
+	height: 60px;
+	width: auto;
+}
+
+.facebook{
+	font-size: 65px;
+	list-style: none;
+	margin: 40px;
+	text-align: center;
+	height: 60px;
+	width: auto;
+}
+
+.instagram{
+	font-size: 65px;
+	list-style: none;
+	margin: 40px;
+	text-align: center;
+	height: 60px;
+	width: auto;
+}
+
+.copyright{
+	float: left;
+	width: 960px;
+	margin: 10px 0px;
+
+}
+
+.copyright p{
+	text-align: center;
+	font-size: 16px;
+	color: #fff;
+	font-family: Arial,  Helvetica, Sans-serif;
+
+}
+.twitter:hover{
+	color: #0A334D;
+	animation: 0.1s ms 2;
+}
+
+@keyframes ms{
+	0%{
+		opacity: 0;
+		transform: scale(2.5);
+	}
+}
+
+.facebook:hover{
+	color: #0A334D;
+	animation: 0.1s ms 2;
+}
+
+@keyframes ms{
+	0%{
+		opacity: 0;
+		transform: scale(2.5);
+	}
+}
+
+.instagram:hover{
+	color: #0A334D;
+	animation: 0.1s ms 2;
+}
+
+@keyframes ms{
+	0%{
+		opacity: 1;
+		transform: scale(2.5);
+	}
+}

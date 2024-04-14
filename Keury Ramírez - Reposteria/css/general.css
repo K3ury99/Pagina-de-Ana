@@ -1,0 +1,121 @@
+/*--- Estilos generales ---*/
+body{
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#eef2f5+0,a6b1ba+24,ab1ba8+100 */
+background: rgb(238,242,245); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(238,242,245,1) 0%, rgba(166,177,186,1) 24%, rgba(171,27,168,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(238,242,245,1) 0%,rgba(166,177,186,1) 24%,rgba(171,27,168,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(238,242,245,1) 0%,rgba(166,177,186,1) 24%,rgba(171,27,168,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eef2f5', endColorstr='#ab1ba8',GradientType=0 ); /* IE6-9 */
+}
+
+a {text-decoration: none; color: #fff;}
+a:hover {text-decoration: underline;}
+
+
+
+/*---Header---*/
+
+header{
+	width: 100%;
+	float: left;
+	background: #fff;
+	padding: 10px 0;
+	border-bottom: 1px solid #eee;
+	box-shadow: 0 1px 1px rgba(0,0,0,.1);
+	-moz-box-shadow: 0 1px 1px rgba(0,0,0,.1);
+	-webkit-box-shadow: 0 1px 1px rgba(0,0,0,.1);
+	-o-box-shadow: 0 1px 1px rgba(0,0,0,.1);
+	
+}
+
+#subheader{
+	width: 960px;
+	margin: auto;
+}
+
+#logotipo{
+	float: left;
+	width: 300px;
+	padding:10px 0px;
+}
+
+
+#logotipo a{
+	font-family: malvie;
+	font-size: 60px;
+	color: #000;
+}
+
+#logotipo a:hover {text-decoration: none;}
+
+header {
+	box-shadow: 0px 4px 5px #000;
+		-moz-box-shadow: 0px 4px 5px #000;
+		-webkit-box-shadow: 0px 4px 5px #000;
+}
+
+header nav {
+	float: left;
+	width:660px;
+	padding:30px 0px;
+	text-align: right;
+}
+
+
+header #subheader nav ul li{
+	display: inline;
+	font-family: sans-serif;
+}
+
+header #subheader nav ul li a{
+	color: #000;
+	font-size: 18px;
+	padding:10px;
+		border-radius: 2px;
+		-moz-border-radius: 2px;
+		-webkit-border-radius: 2px;
+}
+
+header #subheader nav ul li a:hover {
+	color: #fff;
+	background: #1798af;
+	text-decoration: none;
+}
+
+.form{
+	padding: 250px 50px;
+	text-align: center;
+}
+
+.form .p{
+	font-family: malvie;
+}
+
+.copyright{
+	float: left;
+	width: 960px;
+	margin: 10px 0px;
+
+}
+
+.copyright p{
+	text-align: center;
+	font-size: 16px;
+	color: #fff;
+	font-family: Arial,  Helvetica, Sans-serif;
+
+}
+
+/*---swiper---*/
+.swiper-container {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+}
