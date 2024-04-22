@@ -3,5 +3,6 @@
 
 <!-- En resumen, solo se sube la imagen y se toma el URL para editarlo, y se utiliza display flex para agregarlas una al lado de la otra ajustando el width -->
 <div style="display: flex;">
-  <img src="https://github.com/K3ury99/Pagina-de-Ana/assets/128008789/d380d346-6803-4555-a8f6-3a918263bb87" width="100%"></img>
+ <img src="https://github.com/K3ury99/Pagina-de-Ana/assets/128008789/d380d346-6803-4555-a8f6-3a918263bb87" width="100%"></img>
+ <img src="https://github.com/K3ury99/Pagina-de-Ana/assets/128008789/cbb0bd37-0b47-48d2-b617-327124cfd5c4" width="100%"></img>
 </div>
