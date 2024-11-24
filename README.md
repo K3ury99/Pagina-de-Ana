@@ -15,3 +15,6 @@ This is a page that I made in my beginnings as a programmer, this is a page of a
 
 > [!TIP]
 When I made this website I was starting this world of programming, I was only 15 years old!
+
+> [!TIP]
+I updated my page from years ago, at 20!
