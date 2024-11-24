@@ -1,18 +1,23 @@
-Fecha de CreaciÛn: 19/3/2020
+Fecha de Creaci√≥n: 19/3/2020
 
-Hola profesora, espero le guste mi pagina de una "ReposterÌa" si los enlaces no le aparecen o tiene dificultades para que le aparezca todo, digamelo y no me quite nota por favor jajaja por que nunca eh enviado una pagina, asi solo arreglo las ubicaciones y listo... pero dudo que no funcione, ya lo Comprobe todo...
+Hola profesora, espero le guste mi pagina de una "Reposter√≠a" si los enlaces no le aparecen o tiene dificultades para que le aparezca todo, digamelo y no me quite nota por favor jajaja por que nunca eh enviado una pagina, asi solo arreglo las ubicaciones y listo... pero dudo que no funcione, ya lo Comprobe todo...
 
 gracias!...
 
-/*---Empiece entrando por el acceso directo que dice "ReposterÌa"---*/
+/*---Empiece entrando por el acceso directo que dice "Reposter√≠a"---*/
 
 
 -----------------------------------------------------------------------
 -Editado: 14/4/2023.
-Actualmente en ITLA, Terminando ProgramaciÛn 1, 3er cuatrimestre.
-12:48am - En reuniÛn con Victor (Erick nunca entrÛ (Se taba haciendo una macuca XDDDD))
+Actualmente en ITLA, Terminando Programaci√≥n 1, 3er cuatrimestre.
+12:48am - En reuni√≥n con Victor (Erick nunca entr√≥ (Se taba haciendo una macuca XDDDD))
 
 
+-----------------------------------------------------------------------
+-Editado: 24/11/2024.
+Actualmente en el 5to cuatrimestre del ITLA, a finales ya, actualice la pagina para agregarle un Login y Formulario,
+y mejore la paleta de colores un poco, para un proyecto final de Programaci√≥n III, en el cual tengo que 
+automatizar una p√°gina personal y decid√≠ mejorar esta. Estuvo chulo termin√© ahora a las 1:46am.
 
 
 
