@@ -1,21 +1,31 @@
 /* #region  Main */
 
+
 .main-divisor  {
   display: flex;
+height: 100%;
+}
+.main {
+  height: 100%;
 }
 
-body {
+html, body {
   padding: 0px;
   margin: 0px;
+  height: 100%;
 }
 
 .login-box {
   width: 50%;
+  padding: 16px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .img-business-cont {
   width: 50%;
-  height: 100vh;
+  height: 100%;
 }
 
 .img-business-cont img {
@@ -24,3 +34,27 @@ body {
   object-fit: cover;
 }
 /* #endregion*/
+
+/*#region Login Box*/
+
+
+/*#region Logo*/
+.img-logo-container {
+  width: 101px;
+  height: 55px;
+}
+
+.img-logo-container img {
+  width: 100%;
+  object-fit: contain;
+  height: 100%;
+}
+/*#endregion*/
+
+.login-handler-cont {
+display: flex;
+justify-content: center;
+}
+
+
+/*#endregion*/
