@@ -1,15 +1,18 @@
 /* #region  Main */
 
 
-.main-divisor  {
+.main-divisor {
   display: flex;
-height: 100%;
-}
-.main {
   height: 100%;
 }
 
-html, body {
+.main {
+  height: 100%;
+  font-family: "Poppins", sans-serif;
+}
+
+html,
+body {
   padding: 0px;
   margin: 0px;
   height: 100%;
@@ -33,6 +36,7 @@ html, body {
   height: 100%;
   object-fit: cover;
 }
+
 /* #endregion*/
 
 /*#region Login Box*/
@@ -49,12 +53,54 @@ html, body {
   object-fit: contain;
   height: 100%;
 }
+
 /*#endregion*/
 
 .login-handler-cont {
-display: flex;
-justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
+.login-handler p {
+  font-size: 16px;
+  margin: 0px;
+  /* color: gray; */
+}
+.login-handler h2 {
+  margin: 0px;
+  font-weight: 600;
+  font-size: 40px;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-container input {
+  border: 0.15em #c7c7c7 solid;
+  border-radius: 6px;
+  height: 44px;
+  width: 347px;
+}
+
+.input-container label {
+  position: relative;
+  background: white;
+  top: 13px;
+  color: #493f3f;
+  left: 10px;
+  width: fit-content;
+  padding: 0px 11px;
+}
+
+.input-container span {
+  width: fit-content;
+  position: relative;
+  bottom: 38px;
+  left: 313px;
+  color: #554d4d;
+  font-size: 27px;
+}
 
 /*#endregion*/
