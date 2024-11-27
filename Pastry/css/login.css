@@ -20,6 +20,7 @@ body {
 
 .login-box {
   width: 50%;
+  min-width: 410px;
   padding: 16px 30px;
   display: flex;
   flex-direction: column;
@@ -39,7 +40,7 @@ body {
 
 /* #endregion*/
 
-/*#region Login Box*/
+/*#region Izquierda*/
 
 
 /*#region Logo*/
@@ -56,6 +57,8 @@ body {
 
 /*#endregion*/
 
+
+/* #region Login Box y sus titulos*/
 .login-handler-cont {
   display: flex;
   justify-content: center;
@@ -66,15 +69,23 @@ body {
   margin: 0px;
   /* color: gray; */
 }
+
 .login-handler h2 {
-  margin: 0px;
+  margin-top: 7px;
   font-weight: 600;
   font-size: 40px;
+  margin-bottom: 20px;
 }
 
+/*#endregion */
+
+/*#region Inputs*/
 .input-container {
   display: flex;
   flex-direction: column;
+  overflow: hidden;
+  position: relative;
+  max-height: 200px;
 }
 
 .input-container input {
@@ -85,7 +96,7 @@ body {
 }
 
 .input-container label {
-  position: relative;
+  position: absolute;
   background: white;
   top: 13px;
   color: #493f3f;
@@ -96,11 +107,115 @@ body {
 
 .input-container span {
   width: fit-content;
-  position: relative;
-  bottom: 38px;
+  position: absolute;
+  top: 10px;
   left: 313px;
+  cursor: default;
+  user-select: none;
   color: #554d4d;
   font-size: 27px;
+}
+
+
+
+.inputs-login-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 22px;
+}
+
+/*#endregion*/
+
+
+/*#region Boton*/
+.btn-container {
+  margin-top: 20px;
+  height: 40px;
+  margin-bottom: 12px;
+}
+
+.btn-container button {
+  font-size: 15px;
+  width: 100%;
+  font-family: 'POPPINS';
+  height: 100%;
+  background-color: green;
+  border: 1px;
+  font-weight: 500;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.btn-container button:hover {
+  background-color: #005f00;
+}
+
+/*#enregion*/
+
+/*#region Divisor*/
+.message-divisor {
+  position: relative;
+  min-height: 20px;
+  margin-top: 18px;
+
+}
+
+.message-divisor p {
+  top: 0px;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  padding: 0px 9px;
+
+}
+
+.message-divisor hr {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+
+/*#endregion*/
+
+
+/* #region Otras resdes sociales*/
+.other-apps {
+  margin-top: 16px;
+  display: flex;
+  width: 100%;
+  gap: 20px;
+}
+
+.other-apps .social-nw {
+  width: 100%;
+  height: 38px;
+}
+.other-apps button {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* #endregion*/
+
+/*#region Footer*/
+.register-invitation a {
+  text-decoration: none;
+  color: #003000;
+  font-weight: 600;
+}
+
+.register-invitation a:hover {
+  text-decoration: underline;
+  text-decoration-thickness:2px ;
 }
 
 /*#endregion*/
