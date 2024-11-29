@@ -198,10 +198,21 @@ body {
 .other-apps button {
   width: 100%;
   height: 100%;
+  padding: 3px;
   background-color: white;
   border: 1px solid gray;
   border-radius: 5px;
   cursor: pointer;
+}
+
+#logo-especial {
+  padding: 6px;
+}
+
+.other-apps img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 
 /* #endregion*/
