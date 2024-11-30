@@ -5,7 +5,7 @@ This is a page that I made in my beginnings as a programmer, this is a page of a
 <!-- En resumen, solo se sube la imagen y se toma el URL para editarlo, y se utiliza display flex para agregarlas una al lado de la otra ajustando el width -->
 <div style="display: flex;">
   <img src="https://github.com/user-attachments/assets/ea4d994a-82ac-48a3-a0bc-bc82e197bf3d" width="49%"></img> 
-  <img src="https://github.com/user-attachments/assets/960e23f3-58be-4c47-9880-2ada2c82efd0" width="49%"></img>   
+  <img src="https://github.com/user-attachments/assets/60b1aac0-5378-4067-b382-5a7a9f827b6e" width="49%"></img>   
 </div>
 
 <div style="display: flex;">
